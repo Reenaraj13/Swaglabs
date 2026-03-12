@@ -27,13 +27,12 @@ public class AddLowProductToCart extends BaseClass{
 		CartPage cp=new CartPage(driver);
 		String Productincart=cp.getItemName();
 		cp.navigateToMenu();
-		
-		
-		
-		
-		
-		
-		
+				
+	}
+	@Test
+	public void deleteProduct() throws  IOException {
+		System.out.println("delete");
+				
 	}
 	
 }
